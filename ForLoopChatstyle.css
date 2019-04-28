@@ -82,12 +82,14 @@ body {
 
 .friend .chat-message {
     background:  #edf9f5;
+ 
 }
 
 .friend1 .chat-message {
     background: #edf9f5;
     display:  none;
-}
+    
+   }
 
 
 .self .chat-message {
