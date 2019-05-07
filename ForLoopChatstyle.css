@@ -88,6 +88,7 @@ body {
 .friend1 .chat-message {
     background: #edf9f5;
     display:  none;
+       padding-right: 100px;
     
    }
 

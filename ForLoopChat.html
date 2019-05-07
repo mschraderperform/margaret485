@@ -3,13 +3,14 @@
 <html>
 <head>
     <title>ChatBox</title>
-    <link rel="stylesheet" type="text/css" href="Chatstyle.css">
-    <script src="chat.js"></script>   
+    <link rel="stylesheet" type="text/css" href="ForLoopChatstyle.css">
 </head>
 <body>
 	
 <p id="demo"></p>		
-	
+
+<!-- The code below setups up the chat background.                             -->
+
     <div class="chatbox">
       <p  id = "date" style="padding-left: 100px; font-size: 24px; float: left; width:10%;"></p>
     	
@@ -20,6 +21,10 @@
 
 	<div class="chatlogs">
 
+<!-- The code below uses CSS setup called chat friend1 and chat self1.         -->
+<!-- The code formats the chat messages bubbles.  The text wording is setup    -->
+<!-- with a placeholder text.  This text is not displayed in the text message  -->
+<!-- Instead the chat message is replaced at run time with other words.        -->
 
  	    <div class="chat friend1">
 	        <p  id = "one" class="chat-message">Placeholder</p>
@@ -41,8 +46,7 @@
 	    <div class="chat friend1">
 	        <p id="test" class="chat-message">Placeholder</p>
 	        <p  id = "date5" style="padding-left: 100px; font-size: 15px; float: left;"></p>
-            </div>
-  	
+            </div> 	
         <div class="chat self1">
  	        <p id="test2" class="chat-message">Placeholder</p>
  	        <p  id = "date6" style="padding-left: 100px; font-size: 15px; float: left;"></p>
@@ -51,18 +55,18 @@
        </div>
 	<div class="chat-form">
 	    <textarea></textarea>
-	    	<button onclick="AnswerOnPrev()" style="background-color: #e7e7e7; font-size: 18px; color: black; padding: 5px 24px; cursor: pointer;">Previous</button>
+	    <button onclick="AnswerOnPrev()" style="background-color: #e7e7e7; font-size: 18px; color: black; padding: 5px 24px; cursor: pointer;">Previous</button>
 	    <button onclick="AnswerOnClick()" style="background-color: #e7e7e7; font-size: 18px; color: black; padding: 5px 24px; cursor: pointer;">Next</button>
 	    
 	</div>
 
   </div>
-    
-    ForLoopChat.html
-    
+  
+                                
+                             
 <script src="ForLoopChat.js"></script>
-   
-}  
+
+
      
 </body>
 </html>
